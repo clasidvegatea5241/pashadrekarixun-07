@@ -1,7 +1,7 @@
-name: Repository 7 - Slot 7 (7:15 AM IST Target)
+name: Repository 7 - Slot 7 (6:15 AM IST Target)
 on:
   schedule:
-    - cron: "45 1 * * *" # Starts with buffer, runs around Slot 7 (7:15 AM IST Target)
+    - cron: "45 0 * * *" # Starts with buffer, runs around Slot 7 (6:15 AM IST Target)
   workflow_dispatch:
     inputs:
       retry_attempt:
