@@ -1,7 +1,5 @@
-name: Repository 7 - Slot 7 (6:15 AM IST Target)
+name: Repository 7 - Slot 7 (Manual On-Demand Runner)
 on:
-  schedule:
-    - cron: "45 0 * * *" # Starts with buffer, runs around Slot 7 (6:15 AM IST Target)
   workflow_dispatch:
     inputs:
       retry_attempt:
